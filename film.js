@@ -6,19 +6,19 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey : true
 
         },
-        nama_film :{
+        nama_film:{
             type : DataTypes.STRING,
         },
-        deskripsi : {
+        deskripsi:{
             type : DataTypes.STRING,
         },
-        sutradara : {
+        sutradara:{
             type: DataTypes.STRING,
         },
-        tahun_terbit : {
+        tahun_terbit:{
             type : DataTypes.INTEGER,
         },
-        genre : {
+        genre:{
             type : DataTypes.STRING,
         }
     });
